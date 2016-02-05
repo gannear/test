@@ -1,4 +1,6 @@
 <?php
+
+//this is my changes
 $con=mysql_connect("localhost","root","");
 $secdb=mysql_select_db("web");
 if(isset($_POST['submit']))
